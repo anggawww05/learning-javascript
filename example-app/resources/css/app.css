@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    /* .active {
+        @apply border p-2 opacity-100;
+    }
+    h1 {
+        @apply border p-2 opacity-0;
+    } */
+    .tombolutama {
+        @apply border border-black p-2;
+    }
+
+    .tombolkedua {
+        @apply bg-black text-white p-2;
+    }
+
+}
